@@ -1,0 +1,464 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    margin: 0 auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 0;
+
+}
+
+.content {
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.leftmina {
+    cursor: pointer;
+    letter-spacing: 0.6px;
+    font-weight: bold;
+}
+
+.navtext {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.firstthirda {
+    display: flex;
+    gap: 30px;
+}
+
+.sustaclasi {
+    display: none;
+}
+
+.aboutandicon i {
+    cursor: pointer;
+}
+
+.aboutandicon {
+    position: relative;
+}
+
+.aboutandicon:hover .sustaclasi {
+    position: absolute;
+    display: block;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    width: 120px;
+    height: 50px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    border: none;
+}
+
+.aboutandicon i:hover {
+    transform: rotate(180deg);
+    transition: 0.3s;
+}
+
+.navtext a {
+    text-decoration: none;
+    color: black;
+}
+
+.privatea {
+    display: none;
+}
+
+.navtext a:hover {
+    text-decoration: underline;
+}
+
+.burger {
+    display: none;
+    align-items: baseline;
+}
+
+.handmadebg {
+    height: 100vh;
+    max-width: 100%;
+    background-image: url("./img/Rectangle-YZ9P6kWjMnUBNL6W.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.handmade {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    font-weight: bold;
+}
+
+.handmadetitle {
+    font-size: 4rem;
+    letter-spacing: 2px;
+}
+
+.handmadep {
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+.btnHome {
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    color: rgb(58, 51, 51);
+    cursor: pointer;
+}
+
+.section2 {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.our {
+    padding-bottom: 50px;
+    font-size: 1.4rem;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.kart img {
+    width: 300px;
+    height: 300px;
+}
+
+.kart {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.kart h2 {
+    text-align: center;
+}
+
+.kart p {
+    text-align: center;
+}
+
+.butonbuynow {
+    padding-top: 50px;
+}
+
+.butonbuynowclas {
+    width: 150px;
+    height: 60px;
+    border: 1px solid black;
+}
+
+.section3 {
+    background-image: url("./img/Untitled-AzGRJwMK6BHxZypJ\ \(1\).jfif");
+    height: 100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hometext {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+.section3h2 {
+
+    font-size: 5rem;
+    letter-spacing: 2px;
+}
+
+.section3p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.forbtncenter {
+    display: flex;
+    justify-content: center;
+}
+
+.section3btn {
+    width: 200px;
+    height: 60px;
+    border-style: none;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.section4 {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.section4general {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.rightside {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    padding: 13px;
+    align-items: center;
+}
+
+.rightside img {
+    width: 100%;
+    height: 360px;
+}
+
+.section5 {
+    background-image: url("./img/Frame-AGBpDkZaG5cRpbaw.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 50px;
+
+}
+
+.generaldivsection5 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+.generaldivsection5_width {
+    max-width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+.section6 {
+    width: 100%;
+    padding-bottom: 60px;
+}
+
+.hashikisectionalti {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.generalsection6 {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.generalkartfoto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotosection {
+
+    width: 400px;
+    padding: 20px;
+}
+
+.fotosection img {
+    width: 100%;
+}
+
+.amina {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    color: #4d2c57;
+    font-size: 1.6rem;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.footershop {
+    max-width: 100%;
+    min-height: 20vh;
+    padding-top: 10vh;
+    background-color: rgb(240, 229, 229);
+}
+
+.footershopgeneral {
+    max-width: 60%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footertextup {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.leftafooter a {
+    text-decoration: underline;
+    padding: 10px;
+    color: gray;
+    font-size: 1.2rem;
+}
+
+.footerikonlar {
+    display: flex;
+    gap: 20px;
+}
+
+.footerikonlar i {
+    font-size: 25px;
+    transition: .3s;
+}
+
+.footerikonlar i:hover {
+    opacity: 0.7;
+}
+
+@media screen and (max-width: 750px) {
+
+    .firstthirda {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .images {
+        flex-direction: column;
+    }
+
+    .section4general {
+        flex-direction: column;
+    }
+
+    .rightside {
+        width: 100%;
+    }
+
+    .hometext {
+        text-align: center;
+    }
+
+    .generalkartfoto {
+        flex-direction: column;
+    }
+
+    .hashikisectionalti {
+        text-align: center;
+        font-size: 2.5rem;
+        color: gray;
+    }
+
+    .amina {
+        font-size: 1.4rem;
+    }
+
+    .firstthirda {
+        position: fixed;
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .leftafooter {
+        display: flex;
+        flex-direction: column;
+        padding-left: 104px;
+        align-items: flex-end;
+    }
+
+}
+
+#mobilNavbar{
+    color: red;
+    background-color: antiquewhite;
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    left: 0px;
+}
+#mobilNavbar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    text-align: start;
+    
+}
+
+#mobilNavbar li {
+    padding: 20px 10px;
+}
+#mobilNavbar {
+   height: 0;
+   overflow: hidden;
+    transition: 500ms;
+}
+#mobilNavbar.active{
+    height: 200px;
+}
